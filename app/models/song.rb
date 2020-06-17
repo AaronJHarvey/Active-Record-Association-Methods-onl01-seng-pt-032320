@@ -10,7 +10,8 @@ class Song < ActiveRecord::Base
     drake = Artist.find_or_create_by(name:"Drake") #creates artist instance of drake with name "Drake" if it doesn't already exit. #
     
     
-    self.artist = drake #sets the artist for the song it is being called on equal to the drake instance we just made/found 
+    self.artist = drake #sets the artist for the song it is being called on equal to the drake song instance we just 
+    # made/found 
     
     
     
